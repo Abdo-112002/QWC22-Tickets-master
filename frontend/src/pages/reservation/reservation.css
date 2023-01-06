@@ -1,0 +1,105 @@
+h1 {
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 60px;
+  /* margin-left: -50px; */
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+  /* margin-left: 480px; */
+  width: 400px;
+  text-align : center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 30px;
+  
+  /* width: 120px; */
+  /* margin-left: 600px; */
+}
+
+
+h3 span {
+  margin-right : 50px;
+  
+}
+
+
+.list {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 200px;
+  background-color: black;
+  margin-left: -40px;
+  margin-top: 20px;
+}
+
+.btn-control {
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  gap : 10px ;
+  margin : 20px 0px;
+}
+
+.content {
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-direction : column;
+  gap : 10px
+}
+
+.purchase {
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  background-color: green;
+  border-radius: 5px;
+  /* margin-left: 590px;
+  margin-top: 50px; */
+  border: none;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.purchase.btn {
+  background-color: #212121;
+}
+
+.purchase:hover {
+  transition-duration: 0.4s;
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  /* background-color: green; */
+  opacity : .5;
+  border-radius: 5px;
+  /* margin-left: 590px;
+  margin-top: 50px; */
+  border: none;
+  cursor: pointer;
+}
+
+/* .btn {
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #212121;
+    display : block;
+    width: fit-content;
+} */
+
+.pageTitle {
+  margin-top : 250px
+}
